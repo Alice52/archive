@@ -12,7 +12,7 @@ require (
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/spf13/cast v1.6.0
 	github.com/stretchr/testify v1.9.0
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.28.0
 	gorm.io/driver/mysql v1.5.6
 	gorm.io/gen v0.3.26
 	gorm.io/gorm v1.25.10
