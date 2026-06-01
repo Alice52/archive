@@ -39,7 +39,7 @@ jobs:
           echo "TAG=`echo \`date +%Y%m%d\`.${GITHUB_SHA} | cut -c1-16`" >> $GITHUB_ENV
       - name: Checkout Code
         uses: actions/checkout@v4
-      - uses: WillAbides/setup-go-faster@v1.12.0
+      - uses: WillAbides/setup-go-faster@v1.19.0
         with:
           go-version: ${{ matrix.go }}
       - name: Cache dependencies
