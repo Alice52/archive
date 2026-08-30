@@ -1,6 +1,6 @@
 module github.com/alice52/archive/bili
 
-go 1.20
+go 1.21.0
 
 require (
 	github.com/alice52/archive/common v0.0.0-20240424063235-25b8b2c81faf
@@ -10,7 +10,7 @@ require (
 	github.com/micro-services-roadmap/kit-common v0.2.4
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
-	github.com/spf13/cast v1.6.0
+	github.com/spf13/cast v1.10.0
 	github.com/stretchr/testify v1.9.0
 	go.uber.org/zap v1.27.0
 	gorm.io/driver/mysql v1.5.6
